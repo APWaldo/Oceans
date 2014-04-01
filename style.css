@@ -1,0 +1,60 @@
+@font-face {
+	font-family: Vegur;
+	src: url('vegur-light.otf');
+}
+@font-face {
+	font-family: 'Muli', sans-serif;
+	font-family: 'Lato', sans-serif;
+}
+
+/*This puts an outline around the divs*/
+div {
+	outline: 1px solid #CCCCCC;
+}
+
+h1 {
+	font-family: Lato;
+}
+/*This is the outer most div of the content*/
+#main-content {
+	width: 960px;
+	height: 600px;
+}
+
+
+/*These are the styles for both buttons--this is the div to hold them.*/
+.button-holder {
+	width: 180px;
+	float: left;
+}
+/*These are the styles for both individual buttons.*/
+.button {
+	width: 60px;
+	padding: 8px;
+	margin: 4px;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	float: left;
+	text-align: center;
+	font-family: Lato;
+	cursor: pointer;
+}
+
+
+.disabled {
+	cursor: default;
+	border-color: gray;
+	color: gray;
+}
+
+/*This is the style for the images.*/
+.image-holder {
+	width: 600px;
+	height: 345px;
+	float : left;
+	margin: 2px;
+
+}
+
+
